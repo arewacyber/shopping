@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+    <!--This is the head-->
+    <head>
+        <title>Shop Details</title>
+        <meta charset="UTF-8">
+        <meta name="description" content="Ecommerce Website">
+        <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+        <meta name="author" content="MB Auwal">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="./css/bootstrap.css">
+        <script rel="Javascript" href="./js/bootstrap.js"></script> 
+        <style>
+          * {
+              box-sizing: border-box;
+            }
+  
+            /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+          @media (max-width: 600px) {
+            nav, article {
+              width: 100%;
+              height: auto;
+            }
+          }
+          label{
+              position: fixed;
+              top: 13%;
+              left: 45%;
+              color: #504e4e;
+            }
+            div form{
+              position: fixed;
+              top: 20%;
+              left: 5%;
+            }
+            #form2{
+              position: fixed;
+              top: 20%;
+              left: 43%;
+            }
+            #table2{
+              position: fixed;
+              top: 50%;
+              left: 46%;
+            }
+            #botton2{
+              position: fixed;
+              left: 46%;
+              top: 70%;
+            }
+            button a{
+              color: aliceblue;
+            }
+            li a{
+                
+                width: 210px;
+                
+            }
+        </style>
+    </head>
+    <!-- This is the body -->
+    <body>
+            <!--This is Navigation-->
+            <nav class="navbar navbar-expand-sm navbar-light navbar-dark" style="background-color: red;">
+                <a class="nav-link active" href="#"><i id="social-cart" style="color: rgb(255, 255, 255);" class="fa fa-shopping-cart" ></i> </a>
+    
+                <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="nav navbar-nav ml-auto">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="./index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link active" href="./about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link active" href="./categories.html">Categories</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link active" href="./contact.html">Contact Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="./login.html">Login</a>
+                      </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#"><img src="./images/search-logo-md.png" width="30"></a>
+    
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+        <div class="container">
+            <div class="row">
+                <form>
+                  <div id="login-box" class=" col-md-12 form-group">
+                      <label><H4>Rent a Shop</H4></label>
+                    <img src="./images/rent3.jpg" width="400" height="300">
+                   </div>
+                   <br>
+                   <img src="./images/iconfinder_8_3903095.png" width="60" height="60" ><img src="./images/iconfinder_Sed-07_2232318.svg" width="60" height="60" >
+                </form>
+            </div>
+            <div class="row">
+                <form id="form2">
+                  <div id="login-box" class=" col-md-12 form-group">
+                   <table cellpadding="20">
+                      <tr>
+                        <td>
+                          Type:
+                        </td>
+                        <td>
+                            Wholesale Shop
+                        </td>
+                      </tr>
+                      <tr>
+                          <td>
+                            Price:
+                          </td>
+                          <td>
+                              #150,000
+                          </td>
+                        </tr>
+                        <tr>
+                            <td>
+                              Status:
+                            </td>
+                            <td>
+                                Available
+                            </td>
+                          </tr>
+                   </table>
+                    <table id="table2"> 
+                        <tr>
+                        <td>
+                          <textarea name="comment" rows="4" cols="25" placeholder="Add a comment"></textarea>
+                        </td>
+                        
+                      </tr>
+                    </table>
+                  <button type="submit" id="botton2"  class="btn custom" style="background-color: red;" >&nbsp;&nbsp;&nbsp;&nbsp;<a href="./mPayment.html">Send</a>  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</button>
+                  
+                </form>
+                
+              </div>
+      </div>
+    </body>
+</html>

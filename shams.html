@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Module IV Project">
+<meta name="keywords" content="Ecommerce site">
+<meta name="author" content="Shamsudeen M.T.">
+<link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="bootstrap/js/bootstrap.js"></script>
+    <title>E-Commerce Home </title>
+  
+</head>
+
+<body>
+  <center>  
+    <nav  class="navbar navbar-expand-sm bg-danger navbar-light">
+        <ul class="nav nav-pills navb">
+            <li class="nav-item">
+              <a class="nav-link active" href="#"> <i class="fa fa-shopping-cart"></i> </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="index.html">Home</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link text-light" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="categories.html">Categories</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="contact.html">Contact Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="login.html">Login</a>
+            </li>
+        <div>    
+             <li class="form-inline" action="/action_page.php">
+                <input class="form-control mr-sm-2" type="text" placeholder="Search">
+                <button class="btn" type="submit"><i class="fa fa-search"></i> </button>
+            </li>
+          </div>
+        
+          </ul>
+       
+    </nav>
+  </center> 
+    <section class="container">
+      <center>
+
+        <h2>Home</h2>
+        <center style="margin-top: 10px">
+          <img src= "./images/rentshop.jpg" id = "imageSlider" width="400px" height="300px">
+    
+        </center>
+        
+        <script type= "text/javascript">
+    
+        var shops = ["./images/rentshop.jpg", "./images/rentshop2.jpg", "./images/rentshop3.jpg", "./images/shop7.jpg", "./images/image3.jpg", "./images/image4.jpg"];
+        var imageIndex =1;
+    
+        var intervalHandle = setInterval(changeImage, 2000); 
+    
+        var image = document.getElementById('imageSlider');
+    
+        function changeImage(){
+          image.setAttribute ("src",shops[imageIndex]);
+        
+        imageIndex++;
+        if (imageIndex >= shops.length){
+          imageIndex = 0;
+        }
+          
+        }
+        </script>
+    
+         
+          <div class="card-body mt-5">
+            
+            <a href="#" class="btn btn-white border border-danger pl-5 pr-5 ">Rent a Shop</a>
+          </div>
+        </div>
+      </center>
+        
+        </section>
+    <footer class="bg-danger p-3 mt-5 ">
+
+     <center class="w-100 text-white">
+        
+       <small> All rights reserved <i class="fa fa-copyright"></i> Click-on Kaduna 2019</small>
+     </center> 
+     <div>
+        <i class="fa fa-facebook-f"></i> 
+        <i class="fa fa-twitter"></i> 
+        <i class="fa fa-instagram"></i> 
+        <i class="fa fa-google-plus"></i> 
+      
+    </div>
+        
+    </footer>
+    <div class="clear"></div>
+</body>
+</html>

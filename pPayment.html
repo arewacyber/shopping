@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+    <!--This is the head-->
+    <head>
+        <title>Make Payment</title>
+        <meta charset="UTF-8">
+        <meta name="description" content="Ecommerce Website">
+        <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+        <meta name="author" content="MB Auwal">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="./css/bootstrap.css">
+        <script rel="Javascript" href="./js/bootstrap.js"></script> 
+        <style>
+          * {
+              box-sizing: border-box;
+            }
+  
+            /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+          @media (max-width: 600px) {
+            nav, article {
+              width: 100%;
+              height: auto;
+            }
+          }
+          label{
+              position: fixed;
+              top: 13%;
+              left: 45%;
+              color: #504e4e;
+            }
+            div form{
+              position: fixed;
+              top: 22%;
+              right: 10%;
+            }
+            #form2{
+              position: fixed;
+              top: 20%;
+              left: 15%;
+            }
+            
+            }
+            #botton2{
+              position: fixed;
+              left: 15%;
+              top: 70%;
+            }
+            button a{
+              color: aliceblue;
+            }
+            .footer {
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            background-color:red;
+            color: white;
+            text-align: center;
+}
+input[type=text]{
+  width: 100%;
+  padding: 10px 20px;
+  margin: 1px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+li a{
+                
+                width: 210px;
+
+               }
+        </style>
+    </head>
+    <!-- This is the body -->
+    <body>
+        <nav class="navbar navbar-expand-sm navbar-light navbar-dark" style="background-color: red;">
+            <a class="nav-link active" href="#"><i id="social-cart" style="color: rgb(255, 255, 255);" class="fa fa-shopping-cart"></i> </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="nav navbar-nav ml-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="./index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="./about.html">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="./categories.html">Categories</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="./contact.html">Contact Us</a>
+                </li>
+                <li class="nav-item">
+                        <a class="nav-link active" href="./login.html">Login</a>
+                </li>
+                
+                <li class="nav-item">
+                  <a class="nav-link active" href="#"><img src="./images/search-logo-md.png" width="30"></a>
+           </li>
+              </ul>
+            </div>
+            </nav>
+        <div class="container">
+            <div class="row">
+                <form>
+                  <div id="login-box" class=" col-md-12 form-group">
+                      <label><H4>Make Payment</H4></label>
+                    <img src="./images/rent3.jpg" width="350" height="250">
+                   </div>
+                   <p>&nbsp;&nbsp;&nbsp;Type: &nbsp; Wholesale Shop</p>
+                   <p>&nbsp;&nbsp;&nbsp;Price: &nbsp; N150000</p>
+                </form>
+            </div>
+            <div class="row">
+                <form id="form2">
+                  <div id="login-box" class=" col-md-12 form-group">
+                   <table cellpadding="15">
+                      <tr>
+                    
+                        <td>
+                            <input size="60" name="name" type="text" placeholder="Name:">
+                        </td>
+                      </tr>
+                      <tr>
+                          
+                          <td>
+                                <input size="60" name="name" type="text" placeholder="Card: **** **** **** ****">
+                          </td>
+                        </tr>
+                        <tr>
+                            
+                            <td>
+                                    <input size="60" name="name" type="text" placeholder="Expiry: MM/YYYY">
+                            </td>
+                          </tr>
+                          <tr>
+                            
+                                <td>
+                                        <input size="60" name="name" type="text" placeholder="CVC: ***">
+                                </td>
+                              </tr>
+                              <tr>
+                            
+                                    <td>
+                                            <button size="60"  type="submit" id="botton2" class="btn custom" style="background-color: red;">&nbsp;&nbsp;&nbsp;&nbsp;<a href="./mPayment.html">Make Payment</a>  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</button>
+                  
+                                    </td>
+                                  </tr>
+                   </table>
+                    
+                 
+                </form>
+                
+              </div>
+            
+                        </body>
+</html>
